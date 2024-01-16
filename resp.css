@@ -1,0 +1,121 @@
+.burger{
+    display: none;
+    position: absolute;
+    top: 23px;
+    right: 5%;
+}
+.hamburger{
+    width: 35px;
+    height: 3px;
+    margin: 5px 3px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 1210px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 49px;
+    }
+    #ethereum{
+        display: none;
+    }
+    .logo img{
+        position: absolute;
+        top: 0px;
+        left: 22px;
+        width: 80px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .romi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 18px;
+        left: 33%;
+        font-size: 25px;
+    }
+    .heading{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .table1{
+        width: 420px;
+    }
+    .resp-table{
+        display: flex;
+        align-items: center;
+    }
+    .fle{
+        display: none;
+    }
+    .resp-col{
+        display: flex;
+        flex-direction: column;
+    }
+    .value{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    .value p{
+        margin-left: 10%;
+        width: 100px;
+    }
+    .top{
+        position: absolute;
+        left: 13%;
+    }
+    .l4,.l3{
+        margin: 20px 0;
+    }
+    .zomiheading{
+        margin-left: 10%;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .tit{
+        width: auto;
+    }
+    .box1{
+        width: 300px;
+    }
+    .pic img{
+        margin: auto;
+    }
+    .conditions{
+        flex-wrap: wrap;
+    }
+    .romi{
+        font-size: 18px;
+        position: absolute;
+        top: 18px;
+        left: 27%;
+    }
+    .table1{
+        width: 300px;
+    }
+
+}
+@media only screen and (max-width: 810px){
+    .v-table{
+        display: none;
+    }
+}

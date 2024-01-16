@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: #191919;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgb(35, 35, 35);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content a{
+    text-decoration: none;
+    color: #9ba0b8;
+    margin: 0px 10px;
+    font-family: "Nunito",sans-serif;
+    
+}
+.content a:hover{
+    color: #ffffffe5;
+}
+.option{
+    display: flex;
+    align-items: center;
+}
+.option button{
+    height: 35px;
+   margin: 0px 10px;
+   padding: 5px 15px;
+   border-radius: 5px;
+   border: none;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(165, 165, 165, 0.541);
+  
+}
+#btn:hover{
+    background-color: #373737;
+}
+#trade{
+    background-color: #2fa87c;
+    color: white;
+}
+#trade:hover{
+    background-color: #12895d;
+}
+#ethereum{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(165, 165, 165, 0.541);
+}
+#ethereum button{
+   
+    color: rgba(165, 165, 165, 0.541);
+    font-size: 100px;
+
+}
+#ethereum:hover{
+    background-color: #373737;
+}
+#ethereum img{
+    margin: 0px 3px;
+}
+#dot{
+    /* background: linear-gradient(black,white,black); */
+    background: content-box radial-gradient(white, black);
+}
+body{
+    background-color: #191919;
+}
+.title{
+    margin-left: 11%;
+    margin-top: 5%;
+    font-family: "Nunito",sans-serif;
+}
+.title h3{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.title p{
+    margin: 5px 0px;
+    color: #9ba0b8;
+}
+.table{
+    margin-top: 20px;
+    margin-left: 11%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.table1{
+    width: 38vw;
+    margin: 10px;
+    background-color: rgb(21, 21, 21);
+    /* border: 1px solid rgba(99, 99, 99, 0.541); */
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(99, 99, 99, 0.541);
+    padding: 17px 10px;
+}
+.tab h4{
+    color: whitesmoke;
+    font-family: "Nunito",sans-serif;
+}
+.left p{
+    color: #9ba0b8;
+    font-family: "Nunito",sans-serif;
+    margin: 8px 5px;
+}
+.right p{
+    color: whitesmoke;
+    font-family: "Nunito",sans-serif;
+    margin: 8px 5px;
+
+}
+.tab button{
+    background-color: #2fa87c;
+    color: #fff;
+    padding: 10px 17px;
+    font-family: "Nunito",sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.tab button:hover{
+    background-color: #127e57;
+}
+#tab2{
+    padding-bottom: 70px;
+}
+#dis{
+    padding-bottom: 45px;
+}
+.zomiheading{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: "Nunito",sans-serif;
+    margin: 20px 0px;
+}
+#zmi{
+    font-size: 12px;
+    color: #9ba0b8;
+}
+#fle{
+    margin: 0px 10px;   
+}
+.top{
+    color: #9ba0b8;
+    font-family: "Nunito",sans-serif;
+    margin-bottom: 10px;
+}
+.value p{
+    color: whitesmoke;
+    font-family: "Nunito",sans-serif;
+    margin: 35px 0px;
+
+}
+.l1{
+    margin: 0px 50px;
+}
+.l2{
+    margin: 0px 120px;
+}
+.l3{
+    margin-right: 110px;
+}
+.l4{
+    margin-left: 115px;
+}
+.table2{
+    background-color: #131313;
+}
+.line{
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid rgba(99, 99, 99, 0.541);
+}
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic img{
+    margin: 30px;
+}
+.pic img:hover{
+    filter: brightness(0) invert(1);
+}
+.conditions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conditions a{
+    text-decoration: none;
+    color: #9ba0b8;
+    font-family: "Nunito",sans-serif;
+    margin: 10px 15px;
+}
+.conditions a:hover{
+    color: rgba(245, 245, 245, 0.923);
+}
